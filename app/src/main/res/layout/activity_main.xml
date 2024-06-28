@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/newapp_name"
+        android:textStyle="bold"
+        android:textColor="@color/yellow_Accent"
+        android:textSize="26sp"
+        />
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/white_Secondary"
+        >
+
+        <LinearLayout
+            android:background="@color/white_Secondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/welcome"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:textColor="@color/black_Accent"
+                android:padding="16dp"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/enter_name"
+                android:textSize="18sp"
+                android:textColor="@color/black_Accent"
+                android:padding="16dp"
+                android:gravity="center"
+                />
+
+
+
+            <EditText
+                android:id="@+id/nameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="20dp"
+                android:hint="@string/hintname"
+                android:textColor="@color/black_Accent"
+                android:textColorHint="@color/ash_Accent"
+
+                />
+
+
+            <Button
+                android:id="@+id/startBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:background="@color/purple_Seccondary"
+                android:text="@string/start"
+                android:textColor="@color/white_Secondary"
+                android:textSize="26sp"
+                app:backgroundTint="@color/purple2_Accent"
+
+                />
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_Seccondary"
+        android:text="@string/login"
+        android:textColor="@color/white_Secondary"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/sampleBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_Seccondary"
+        android:text="@string/sample"
+        android:textColor="@color/white_Secondary"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        />
+
+
+
+</LinearLayout>

@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Mynew</string>
+
+    <string name="newapp_name">Quiz App</string>
+    <string name="welcome">Welcome</string>
+    <string name="enter_name">Please Enter Your Name</string>
+    <string name="hintname">Name</string>
+    <string name="start">Start</string>
+    <string name="title1">"What country does this flag belong to ?"</string>
+    <string name="name1">"apple"</string>
+    <string name="submit">Submit</string>
+    <string name="argentina">Argentina</string>
+    <string name="australia">Australia</string>
+    <string name="america">America</string>
+    <string name="india">India</string>
+    <string name="china">China</string>
+    <string name="login">Login</string>
+    <string name="sample">Sample exercise</string>
+    <string name="computer">Computer</string>
+    <string name="sports">Sports</string>
+    <string name="inventions">Inventions</string>
+   <string name="Gknowledge">General Knowledge</string>
+    <string name="science">Science</string>
+    <string name="english">English</string>
+    <string name="authors">Authors</string>
+    <string name="mathematics">Mathematics</string>
+    <string name="capitals">Capitals</string>
+    <string name="currency">Currency</string>
+    <string name="quiz">Q  U  I  Z</string>
+    <string name="info">Please login with your information</string>
+    <string name="email">Email Address</string>
+    <string name="password">Password</string>
+    <string name="remember">Remember me</string>
+    <string name="forgotP">I forgot my password</string>
+   <string name="loginwith">Or Login with</string>
+
+</resources>

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Question">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="com.shrike800gmail.relativelayout.ScoreCard"
+        tools:showIn="@layout/app_bar_navigation_"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/b1"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@color/purple2_Accent"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:drawableTop="@drawable/computer"
+                    android:paddingTop="25dp"
+                    android:text="@string/computer"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white_Secondary"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/b2"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@color/purple2_Accent"
+                    android:drawableTop="@drawable/sports"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:paddingTop="25dp"
+                    android:text="@string/sports"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white_Secondary"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/b3"
+                    android:layout_width="0dp"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@color/purple2_Accent"
+                    android:drawableLeft="@drawable/invention"
+                    android:paddingLeft="45dp"
+                    android:text="@string/inventions"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white_Secondary"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/generalbtn"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@color/purple2_Accent"
+                    android:drawableTop="@drawable/general"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:paddingTop="25dp"
+                    android:text="@string/Gknowledge"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white_Secondary"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/b5"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@color/purple2_Accent"
+                    android:drawableTop="@drawable/science"
+                    android:paddingTop="25dp"
+                    android:text="@string/science"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white_Secondary"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/b6"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:layout_weight="1"
+                    android:background="@color/purple2_Accent"
+                    android:drawableTop="@drawable/english"
+                    android:paddingTop="40dp"
+                    android:text="@string/english"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white_Secondary"
+                    android:textSize="18sp" />
+
+
+                <Button
+                    android:id="@+id/b7"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@color/purple2_Accent"
+                    android:drawableTop="@drawable/books"
+                    android:paddingTop="25dp"
+                    android:text="@string/authors"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white_Secondary"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/b8"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@color/purple2_Accent"
+                    android:drawableLeft="@drawable/maths"
+                    android:paddingLeft="35dp"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:text="@string/mathematics"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white_Secondary"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/b9"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@color/purple2_Accent"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:drawableTop="@drawable/capital"
+                    android:paddingTop="25dp"
+                    android:text="@string/capitals"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white_Secondary" />
+
+
+                <Button
+                    android:id="@+id/b10"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@color/purple2_Accent"
+                    android:drawableTop="@drawable/currency"
+                    android:paddingTop="25dp"
+                    android:text="@string/currency"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white_Secondary" />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+        
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+<color name="black_Accent">#FF000000</color>
+<color name="white_Secondary">#FFFFFFFF</color>
+<color name="yellow_Accent" >#F5D78B</color>
+<color name="ash_Accent">#949393</color>
+<color name="purple_Seccondary">#CF72F6</color>
+<color name="purple2_Accent">#D085ef</color>
+<color name="shape_Accent">#F4F0F0</color>
+<color name="purple3_Primary">#9927AE</color>
+
+</resources>
